@@ -1,0 +1,9 @@
+bin/
+chroma_db/
+gdocs/
+include/
+lib/
+ljbot/
+share/
+pyvenv.cfg
+.DS_Store
