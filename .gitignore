@@ -1,16 +1,12 @@
 .gradio/
-bin/
+venv/
 chroma_db/
 chroma_db_copy/
 chroma_db_local/
 chroma_db_local_copy/
 etc/
 gdocs/
-include/
-lib/
 ljbot/
-share/
-pyvenv.cfg
 .DS_Store
 CLAUDE.md
 processed_idx.txt
