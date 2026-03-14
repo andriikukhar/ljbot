@@ -1,3 +1,4 @@
+.gradio/
 bin/
 chroma_db/
 chroma_db_copy/
