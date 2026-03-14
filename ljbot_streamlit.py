@@ -13,7 +13,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 if "GEMINI_API_KEY" in os.environ:
     del os.environ["GEMINI_API_KEY"]
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCvvO2M0p9mW0JgFQUtUllpQtDOKQ81oJo"
+os.environ["GOOGLE_API_KEY"] = ""
 
 @st.cache_resource
 def load_rag():

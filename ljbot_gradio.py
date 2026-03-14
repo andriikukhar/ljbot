@@ -13,7 +13,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 if "GEMINI_API_KEY" in os.environ:
     del os.environ["GEMINI_API_KEY"]
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCvvO2M0p9mW0JgFQUtUllpQtDOKQ81oJo"
+os.environ["GOOGLE_API_KEY"] = ""
 
 embeddings = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001")
 vector_store = Chroma(persist_directory="./chroma_db", embedding_function=embeddings)
